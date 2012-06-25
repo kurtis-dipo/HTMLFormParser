@@ -1,0 +1,10 @@
+Usage:
+
+import HTMLFormParser
+
+form = HTMLFormParser.HTMLFormParser()
+form.set_form_identifier({"name" : "form_name"}) # may be any other DOM param
+form.parse(html)
+items = form.items
+
+Example of usage in google_form.py 
